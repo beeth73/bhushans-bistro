@@ -39,13 +39,16 @@ To run this project locally:
 2. **Navigate to the directory:**
   ```bash
   cd bhushans-bistro
-
+  ```
 3. **Install dependencies:**
   ```bash
   npm install
+  ```
+
 4. **Start the development server:**
   ```bash
   npm start
+  ```
 
 
 The app will open automatically at http://localhost:3000
