@@ -1,70 +1,52 @@
-# Getting Started with Create React App
+# 🍔 Bhushan's Bistro - Food Delivery Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Developed by **Bhushan Ladgaonkar**  
+Project for the **Full Stack Development (FSD) Course**  
+**Fr. Conceicao Rodrigues College of Engineering (FRCRCE)**
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 📝 Project Overview
+Bhushan's Bistro is a dynamic, single-page React application that simulates a modern food delivery experience. The project demonstrates core frontend engineering concepts including state management, component architecture, and real-time business logic calculations (GST, discounts, and quantity handling).
 
-### `npm start`
+## 🚀 Features
+- **Dynamic Menu:** Interactive list of food items with high-quality visual representation.
+- **Advanced Cart Logic:** 
+  - Intelligent quantity management (prevents duplicate entries, groups items).
+  - Add/Remove functionality.
+- **Pricing Engine:** 
+  - Real-time Subtotal calculation.
+  - **Promo Code System:** Supports `BHUSHAN50` for a 50% discount.
+  - **Tax Module:** Automated calculation of 9% CGST and 9% SGST.
+- **Responsive Design:** Styled with modern CSS-in-JS for a clean, professional look.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🛠️ Tech Stack
+- **Library:** React.js (v18+)
+- **Language:** JavaScript (ES6+)
+- **UI Architecture:** Functional Components with Hooks (`useState`)
+- **Deployment:** Vercel
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## ⚙️ Installation & Setup
+To run this project locally on your machine (Tested on MacBook M4):
 
-### `npm test`
+1. **Clone the repository:**
+   ```bash
+   git clone [your-repository-link]
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+   Install dependencies:
+code
+Bash
+npm install
+Start the development server:
+code
+Bash
+npm start
+The app will open at http://localhost:3000
+🏫 Academic Context
+This project was built as part of the Module 3 assignment for the FSD Course at FRCRCE. It covers:
+Component Reusability & Props.
+State-driven UI updates.
+Array manipulation (map, filter, reduce).
+Conditional Rendering.
+© 2024 Bhushan Ladgaonkar - FRCRCE FSD
