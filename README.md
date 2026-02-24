@@ -1,5 +1,7 @@
 # 🍔 Bhushan's Bistro - Food Delivery Application
 
+**Live Demo:** [https://bhushans-bistro.vercel.app/](https://bhushans-bistro.vercel.app/)
+
 Developed by **Bhushan Ladgaonkar**  
 Project for the **Full Stack Development (FSD) Course**  
 **Fr. Conceicao Rodrigues College of Engineering (FRCRCE)**
@@ -12,41 +14,44 @@ Bhushan's Bistro is a dynamic, single-page React application that simulates a mo
 ## 🚀 Features
 - **Dynamic Menu:** Interactive list of food items with high-quality visual representation.
 - **Advanced Cart Logic:** 
-  - Intelligent quantity management (prevents duplicate entries, groups items).
-  - Add/Remove functionality.
+  - **Intelligent Quantity Management:** Prevents duplicate entries by grouping items and incrementing quantities.
+  - **Real-time Updates:** Add or remove items with instant UI feedback.
 - **Pricing Engine:** 
-  - Real-time Subtotal calculation.
+  - Real-time Subtotal calculation based on quantity.
   - **Promo Code System:** Supports `BHUSHAN50` for a 50% discount.
-  - **Tax Module:** Automated calculation of 9% CGST and 9% SGST.
-- **Responsive Design:** Styled with modern CSS-in-JS for a clean, professional look.
+  - **Tax Module:** Automated calculation of 9% CGST and 9% SGST applied on the discounted subtotal.
+- **Branded UI:** Fully customized header, centered layout, and styled with modern CSS-in-JS.
 
 ## 🛠️ Tech Stack
 - **Library:** React.js (v18+)
 - **Language:** JavaScript (ES6+)
 - **UI Architecture:** Functional Components with Hooks (`useState`)
 - **Deployment:** Vercel
+- **Development Environment:** MacBook Air M4
 
 ## ⚙️ Installation & Setup
-To run this project locally on your machine (Tested on MacBook M4):
+To run this project locally:
 
 1. **Clone the repository:**
    ```bash
-   git clone [your-repository-link]
+   git clone https://github.com/beeth73/bhushans-bistro.git
+
+2. **Navigate to the directory:**
+  ```bash
+  cd bhushans-bistro
+
+3. **Install dependencies:**
+  ```bash
+  npm install
+4. **Start the development server:**
+  ```bash
+  npm start
 
 
-   Install dependencies:
-code
-Bash
-npm install
-Start the development server:
-code
-Bash
-npm start
-The app will open at http://localhost:3000
+The app will open automatically at http://localhost:3000
 🏫 Academic Context
-This project was built as part of the Module 3 assignment for the FSD Course at FRCRCE. It covers:
-Component Reusability & Props.
-State-driven UI updates.
-Array manipulation (map, filter, reduce).
-Conditional Rendering.
-© 2024 Bhushan Ladgaonkar - FRCRCE FSD
+This project was built as part of the Module 3 assignment for the FSD Course at FRCRCE. Key learning objectives achieved:
+Component Reusability & Props: Passing data and functions across the component tree.
+State-driven UI: Managing application memory with the useState hook.
+Functional Programming: Heavy use of array manipulation methods like .map(), .filter(), and .reduce().
+Conditional Rendering: Displaying cart empty states and promo success messages.
